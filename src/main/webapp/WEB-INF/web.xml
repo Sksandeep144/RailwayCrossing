@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Railway Crossing Status</display-name>
+  <servlet>
+  	<servlet-name>Register</servlet-name>
+  	<display-name>Register</display-name>
+  	<description></description>
+  	<servlet-class>com.user.Register</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserDAO</servlet-name>
+  	<display-name>UserDAO</display-name>
+  	<description></description>
+  	<servlet-class>com.user.UserDAO</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.user.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>dashboard</servlet-name>
+  	<display-name>dashboard</display-name>
+  	<description></description>
+  	<servlet-class>com.user.dashboard</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginAdmin</servlet-name>
+  	<display-name>LoginAdmin</display-name>
+  	<description></description>
+  	<servlet-class>com.admin.LoginAdmin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddRail</servlet-name>
+  	<display-name>AddRail</display-name>
+  	<description></description>
+  	<servlet-class>com.railway.AddRail</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RailDao</servlet-name>
+  	<display-name>RailDao</display-name>
+  	<description></description>
+  	<servlet-class>com.railway.RailDao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Register</servlet-name>
+  	<url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserDAO</servlet-name>
+  	<url-pattern>/UserDAO</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>dashboard</servlet-name>
+  	<url-pattern>/dashboard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginAdmin</servlet-name>
+  	<url-pattern>/LoginAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddRail</servlet-name>
+  	<url-pattern>/AddRail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RailDao</servlet-name>
+  	<url-pattern>/RailDao</url-pattern>
+  </servlet-mapping>
+</web-app>
